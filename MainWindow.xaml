@@ -1,0 +1,89 @@
+﻿<Window x:Class="FlowDoc_ViewPort.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlowDoc_ViewPort"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="65" />
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer IsToolBarVisible="False" MinZoom="50" Zoom="100"   BorderThickness="1" BorderBrush="Gainsboro" Name="flowDoc" Loaded="FlowDoc_Loaded" Grid.Row="0">
+            <FlowDocument Name="flowdoc1" ColumnWidth="999999" PageHeight="840">
+                <Section Name="sec1">
+                    <Paragraph>
+                        <TextBlock Name="oldPage1" TextWrapping="Wrap" Background="Red">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec maximus libero. Proin at suscipit tellus. Maecenas interdum lacinia turpis, nec dictum nisi blandit ac. Mauris quis mauris sodales, aliquet tortor nec, dignissim turpis. Sed nec purus vitae tortor posuere tempus id at justo. Integer maximus, eros sit amet sollicitudin cursus, urna lacus posuere justo, ut tempus est nisi nec elit. Duis luctus, justo sed feugiat dapibus, arcu odio hendrerit est, tempus tempus ante elit ut augue. Quisque aliquet blandit libero sed congue. Quisque imperdiet tempor enim, at pulvinar nulla pellentesque in. Maecenas sit amet massa ultrices, fringilla leo id, scelerisque turpis. Cras non pharetra metus. Cras blandit hendrerit nulla at pellentesque. Nulla tristique eget nibh sed ornare. Praesent augue purus, tincidunt a tempus ut, iaculis vel mi.
+                        
+                        <LineBreak />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie volutpat ante, ac dapibus risus varius vel. In tempor nulla non tristique scelerisque. Nam sollicitudin est tellus, sit amet tempus quam faucibus vel. Proin accumsan sed est ut facilisis. Sed non elit semper, euismod augue non, vulputate lorem. Duis malesuada fringilla mauris, ut tempus enim volutpat in. Duis dignissim ullamcorper est in auctor. Nam at tempor metus, in blandit ligula. Mauris sed urna eleifend, volutpat nulla at, ornare libero. Pellentesque dictum ac nibh at fringilla. Pellentesque eu mi leo. Proin aliquet ante at nisi consequat pharetra.
+                        
+                        <LineBreak />
+                        
+                        Etiam accumsan arcu justo, quis dignissim elit volutpat id. Maecenas nec eros id massa pellentesque euismod nec et libero. Aliquam in porttitor lectus. Mauris nec magna sit amet mauris dignissim blandit eget eget velit. Vestibulum dapibus tempor erat, in dapibus eros vestibulum venenatis. Aenean massa mi, efficitur quis fringilla in, elementum vel metus. Sed pulvinar ex lacinia lobortis pharetra. In vel nisi aliquet, porttitor purus vitae, tempus orci. Morbi et ipsum rhoncus, aliquam tortor et, iaculis nibh.
+                        
+                        <LineBreak />
+                        
+                        Curabitur hendrerit nisl ut erat viverra pharetra. Fusce rhoncus vitae nisl ac venenatis. Etiam eget magna vitae dolor placerat vestibulum. Maecenas et tristique orci, et molestie risus. In consectetur odio mi, at sollicitudin mauris aliquam in. Aenean a est vehicula lectus semper tempus id sed diam. Suspendisse potenti. Donec accumsan tortor ac lobortis hendrerit. Phasellus vel pellentesque tortor. Curabitur consectetur luctus nibh, non interdum orci placerat in. Pellentesque tempus est tellus, sit amet tempor eros rhoncus vitae. Nunc lobortis turpis sed condimentum mattis. Aliquam erat volutpat.
+                        
+                        <LineBreak />
+                        
+                        Proin ut pellentesque felis. Curabitur faucibus sed lectus id ornare. Suspendisse tempor pellentesque quam sit amet gravida. Sed venenatis lorem sit amet metus luctus efficitur. Ut enim nisl, luctus quis mollis vitae, aliquam in est. Donec et lobortis sapien. Aliquam suscipit augue a nunc tincidunt, vel sodales velit dapibus. Nulla lacinia mi sit amet libero scelerisque, at hendrerit eros vehicula. Nam lectus metus, faucibus non quam eu, dignissim ultrices metus. Cras urna libero, molestie euismod tortor id, ultrices posuere ligula. Nulla porta maximus nulla. Nunc vitae finibus diam, eu consequat tortor.
+                        </TextBlock>
+                    </Paragraph>
+                </Section>
+                <Section Name="sec2">
+                    <Paragraph>
+                        <TextBlock Name="oldPage2" TextWrapping="Wrap" Background="Green">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec maximus libero. Proin at suscipit tellus. Maecenas interdum lacinia turpis, nec dictum nisi blandit ac. Mauris quis mauris sodales, aliquet tortor nec, dignissim turpis. Sed nec purus vitae tortor posuere tempus id at justo. Integer maximus, eros sit amet sollicitudin cursus, urna lacus posuere justo, ut tempus est nisi nec elit. Duis luctus, justo sed feugiat dapibus, arcu odio hendrerit est, tempus tempus ante elit ut augue. Quisque aliquet blandit libero sed congue. Quisque imperdiet tempor enim, at pulvinar nulla pellentesque in. Maecenas sit amet massa ultrices, fringilla leo id, scelerisque turpis. Cras non pharetra metus. Cras blandit hendrerit nulla at pellentesque. Nulla tristique eget nibh sed ornare. Praesent augue purus, tincidunt a tempus ut, iaculis vel mi.
+                        
+                        <LineBreak />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie volutpat ante, ac dapibus risus varius vel. In tempor nulla non tristique scelerisque. Nam sollicitudin est tellus, sit amet tempus quam faucibus vel. Proin accumsan sed est ut facilisis. Sed non elit semper, euismod augue non, vulputate lorem. Duis malesuada fringilla mauris, ut tempus enim volutpat in. Duis dignissim ullamcorper est in auctor. Nam at tempor metus, in blandit ligula. Mauris sed urna eleifend, volutpat nulla at, ornare libero. Pellentesque dictum ac nibh at fringilla. Pellentesque eu mi leo. Proin aliquet ante at nisi consequat pharetra.
+                        
+                        <LineBreak />
+                        
+                        Etiam accumsan arcu justo, quis dignissim elit volutpat id. Maecenas nec eros id massa pellentesque euismod nec et libero. Aliquam in porttitor lectus. Mauris nec magna sit amet mauris dignissim blandit eget eget velit. Vestibulum dapibus tempor erat, in dapibus eros vestibulum venenatis. Aenean massa mi, efficitur quis fringilla in, elementum vel metus. Sed pulvinar ex lacinia lobortis pharetra. In vel nisi aliquet, porttitor purus vitae, tempus orci. Morbi et ipsum rhoncus, aliquam tortor et, iaculis nibh.
+                        
+                        <LineBreak />
+                        
+                        Curabitur hendrerit nisl ut erat viverra pharetra. Fusce rhoncus vitae nisl ac venenatis. Etiam eget magna vitae dolor placerat vestibulum. Maecenas et tristique orci, et molestie risus. In consectetur odio mi, at sollicitudin mauris aliquam in. Aenean a est vehicula lectus semper tempus id sed diam. Suspendisse potenti. Donec accumsan tortor ac lobortis hendrerit. Phasellus vel pellentesque tortor. Curabitur consectetur luctus nibh, non interdum orci placerat in. Pellentesque tempus est tellus, sit amet tempor eros rhoncus vitae. Nunc lobortis turpis sed condimentum mattis. Aliquam erat volutpat.
+                        
+                        <LineBreak />
+                        
+                        Proin ut pellentesque felis. Curabitur faucibus sed lectus id ornare. Suspendisse tempor pellentesque quam sit amet gravida. Sed venenatis lorem sit amet metus luctus efficitur. Ut enim nisl, luctus quis mollis vitae, aliquam in est. Donec et lobortis sapien. Aliquam suscipit augue a nunc tincidunt, vel sodales velit dapibus. Nulla lacinia mi sit amet libero scelerisque, at hendrerit eros vehicula. Nam lectus metus, faucibus non quam eu, dignissim ultrices metus. Cras urna libero, molestie euismod tortor id, ultrices posuere ligula. Nulla porta maximus nulla. Nunc vitae finibus diam, eu consequat tortor.
+                        </TextBlock>
+                    </Paragraph>
+                </Section>
+                <Section Name="sec3">
+                    <Paragraph>
+                        <TextBlock Name="oldPage3" TextWrapping="Wrap" Background="Blue">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec maximus libero. Proin at suscipit tellus. Maecenas interdum lacinia turpis, nec dictum nisi blandit ac. Mauris quis mauris sodales, aliquet tortor nec, dignissim turpis. Sed nec purus vitae tortor posuere tempus id at justo. Integer maximus, eros sit amet sollicitudin cursus, urna lacus posuere justo, ut tempus est nisi nec elit. Duis luctus, justo sed feugiat dapibus, arcu odio hendrerit est, tempus tempus ante elit ut augue. Quisque aliquet blandit libero sed congue. Quisque imperdiet tempor enim, at pulvinar nulla pellentesque in. Maecenas sit amet massa ultrices, fringilla leo id, scelerisque turpis. Cras non pharetra metus. Cras blandit hendrerit nulla at pellentesque. Nulla tristique eget nibh sed ornare. Praesent augue purus, tincidunt a tempus ut, iaculis vel mi.
+                        
+                        <LineBreak />
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie volutpat ante, ac dapibus risus varius vel. In tempor nulla non tristique scelerisque. Nam sollicitudin est tellus, sit amet tempus quam faucibus vel. Proin accumsan sed est ut facilisis. Sed non elit semper, euismod augue non, vulputate lorem. Duis malesuada fringilla mauris, ut tempus enim volutpat in. Duis dignissim ullamcorper est in auctor. Nam at tempor metus, in blandit ligula. Mauris sed urna eleifend, volutpat nulla at, ornare libero. Pellentesque dictum ac nibh at fringilla. Pellentesque eu mi leo. Proin aliquet ante at nisi consequat pharetra.
+                        
+                        <LineBreak />
+                        
+                        Etiam accumsan arcu justo, quis dignissim elit volutpat id. Maecenas nec eros id massa pellentesque euismod nec et libero. Aliquam in porttitor lectus. Mauris nec magna sit amet mauris dignissim blandit eget eget velit. Vestibulum dapibus tempor erat, in dapibus eros vestibulum venenatis. Aenean massa mi, efficitur quis fringilla in, elementum vel metus. Sed pulvinar ex lacinia lobortis pharetra. In vel nisi aliquet, porttitor purus vitae, tempus orci. Morbi et ipsum rhoncus, aliquam tortor et, iaculis nibh.
+                        
+                        <LineBreak />
+                        
+                        Curabitur hendrerit nisl ut erat viverra pharetra. Fusce rhoncus vitae nisl ac venenatis. Etiam eget magna vitae dolor placerat vestibulum. Maecenas et tristique orci, et molestie risus. In consectetur odio mi, at sollicitudin mauris aliquam in. Aenean a est vehicula lectus semper tempus id sed diam. Suspendisse potenti. Donec accumsan tortor ac lobortis hendrerit. Phasellus vel pellentesque tortor. Curabitur consectetur luctus nibh, non interdum orci placerat in. Pellentesque tempus est tellus, sit amet tempor eros rhoncus vitae. Nunc lobortis turpis sed condimentum mattis. Aliquam erat volutpat.
+                        
+                        <LineBreak />
+                        
+                        Proin ut pellentesque felis. Curabitur faucibus sed lectus id ornare. Suspendisse tempor pellentesque quam sit amet gravida. Sed venenatis lorem sit amet metus luctus efficitur. Ut enim nisl, luctus quis mollis vitae, aliquam in est. Donec et lobortis sapien. Aliquam suscipit augue a nunc tincidunt, vel sodales velit dapibus. Nulla lacinia mi sit amet libero scelerisque, at hendrerit eros vehicula. Nam lectus metus, faucibus non quam eu, dignissim ultrices metus. Cras urna libero, molestie euismod tortor id, ultrices posuere ligula. Nulla porta maximus nulla. Nunc vitae finibus diam, eu consequat tortor.
+                        </TextBlock>
+                    </Paragraph>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <Label Grid.Row="1" Name="itemsInView" />
+    </Grid>
+</Window>
