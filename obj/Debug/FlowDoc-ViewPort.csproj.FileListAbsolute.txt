@@ -1,0 +1,15 @@
+D:\Learn\WPF\FlowDoc-ViewPort\bin\Debug\FlowDoc-ViewPort.exe.config
+D:\Learn\WPF\FlowDoc-ViewPort\bin\Debug\FlowDoc-ViewPort.exe
+D:\Learn\WPF\FlowDoc-ViewPort\bin\Debug\FlowDoc-ViewPort.pdb
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc-ViewPort.csproj.AssemblyReference.cache
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\MainWindow.g.cs
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\App.g.cs
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc-ViewPort_MarkupCompile.cache
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc-ViewPort_MarkupCompile.lref
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\MainWindow.baml
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc-ViewPort.g.resources
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc_ViewPort.Properties.Resources.resources
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc-ViewPort.csproj.GenerateResource.cache
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc-ViewPort.csproj.CoreCompileInputs.cache
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc-ViewPort.exe
+D:\Learn\WPF\FlowDoc-ViewPort\obj\Debug\FlowDoc-ViewPort.pdb
